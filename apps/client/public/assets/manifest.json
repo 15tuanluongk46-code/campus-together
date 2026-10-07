@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "units": "metres",
+  "up": "+Y",
+  "forward": "+Z",
+  "origin": "feet/bottom midpoint",
+  "license": "CC0-1.0",
+  "source": "assets/source/campus-assets.blend",
+  "characters": [
+    {
+      "id": 0,
+      "label": "Gió",
+      "url": "/assets/student-0.glb",
+      "badge": 1,
+      "tint": "teal"
+    },
+    {
+      "id": 1,
+      "label": "Nắng",
+      "url": "/assets/student-1.glb",
+      "badge": 2,
+      "tint": "terracotta"
+    },
+    {
+      "id": 2,
+      "label": "Mầm",
+      "url": "/assets/student-2.glb",
+      "badge": 3,
+      "tint": "marigold"
+    },
+    {
+      "id": 3,
+      "label": "Sóng",
+      "url": "/assets/student-3.glb",
+      "badge": 4,
+      "tint": "indigo"
+    }
+  ],
+  "animations": {
+    "idle": {
+      "duration": 2.4,
+      "loop": true
+    },
+    "walk": {
+      "duration": 0.8,
+      "loop": true,
+      "authoredSpeed": 1.5
+    },
+    "run": {
+      "duration": 0.5333333333333333,
+      "loop": true,
+      "authoredSpeed": 3.1
+    },
+    "pickup": {
+      "duration": 1.0,
+      "loop": false
+    },
+    "drop": {
+      "duration": 0.9333333333333333,
+      "loop": false
+    },
+    "carryIdle": {
+      "duration": 2.4,
+      "loop": true
+    },
+    "carryWalk": {
+      "duration": 0.8666666666666667,
+      "loop": true,
+      "authoredSpeed": 1.3
+    },
+    "interact": {
+      "duration": 1.3333333333333333,
+      "loop": true
+    },
+    "celebrate": {
+      "duration": 2.0,
+      "loop": true
+    },
+    "carrySmallIdle": {
+      "duration": 2.4,
+      "loop": true
+    },
+    "carrySmallWalk": {
+      "duration": 0.8,
+      "loop": true,
+      "authoredSpeed": 1.5
+    }
+  },
+  "sockets": {
+    "large": "carryLarge",
+    "small": "carrySmall"
+  },
+  "props": {
+    "crate": "/assets/crate.glb",
+    "cable": "/assets/cable.glb",
+    "fuse": "/assets/fuse.glb",
+    "module-sun": "/assets/module-sun.glb",
+    "module-leaf": "/assets/module-leaf.glb",
+    "module-wave": "/assets/module-wave.glb",
+    "lantern": "/assets/lantern.glb",
+    "banner": "/assets/banner.glb",
+    "bunting": "/assets/bunting.glb",
+    "tree-round": "/assets/tree-round.glb",
+    "tree-slender": "/assets/tree-slender.glb",
+    "bench": "/assets/bench.glb",
+    "flower-pot": "/assets/flower-pot.glb",
+    "station": "/assets/station.glb"
+  },
+  "itemAssets": {
+    "crate": "crate",
+    "cable": "cable",
+    "fuse": "fuse",
+    "module": [
+      "module-sun",
+      "module-leaf",
+      "module-wave"
+    ],
+    "banner": "banner",
+    "lantern": "lantern"
+  },
+  "files": {
+    "banner.glb": {
+      "bytes": 21236,
+      "sha256": "5256601f9bf5ba32e68f20c04d57d82e3c77f9fc7183f1e931f11d78c6da9c15",
+      "triangles": 400,
+      "restBoundsGltf": [
+        [
+          -0.06777817010879517,
+          -0.010999998077750206,
+          -0.1899999976158142
+        ],
+        [
+          0.07099999487400055,
+          0.13099999725818634,
+          0.1899999976158142
+        ]
+      ]
+    },
+    "bench.glb": {
+      "bytes": 151912,
+      "sha256": "ce2cd34bc4d85ea75a762812eef2beecda7cfc1db37fd910defad7e5c0eef688",
+      "triangles": 2156,
+      "restBoundsGltf": [
+        [
+          -0.6899999976158142,
+          0.0,
+          -0.25993356108665466
+        ],
+        [
+          0.6899999976158142,
+          0.9340000152587891,
+          0.22750000655651093
+        ]
+      ]
+    },
+    "bunting.glb": {
+      "bytes": 19236,
+      "sha256": "7503c192ec88929f203f5dbe8905ee5a355d996737778fd4d897f3d1beafb26f",
+      "triangles": 789,
+      "restBoundsGltf": [
+        [
+          -1.5030921697616577,
+          1.6565358638763428,
+          -0.01599999889731407
+        ],
+        [
+          1.5030921697616577,
+          2.3084521293640137,
+          0.009000000543892384
+        ]
+      ]
+    },
+    "cable.glb": {
+      "bytes": 115232,
+      "sha256": "680c65175602cf28ab5cc98b6786babb88aff11b67934f233e91fd4e90c22f30",
+      "triangles": 3404,
+      "restBoundsGltf": [
+        [
+          -0.12099999934434891,
+          0.004999998956918716,
+          -0.12099999934434891
+        ],
+        [
+          0.22750000655651093,
+          0.125,
+          0.12600000202655792
+        ]
+      ]
+    },
+    "crate.glb": {
+      "bytes": 305508,
+      "sha256": "a84effcbdb7488a21fe5416f5f226de08c9498a474d229fd9236e75ca017b813",
+      "triangles": 4720,
+      "restBoundsGltf": [
+        [
+          -0.28600001335144043,
+          0.0,
+          -0.20672999322414398
+        ],
+        [
+          0.28600001335144043,
+          0.3009999990463257,
+          0.2199999988079071
+        ]
+      ]
+    },
+    "flower-pot.glb": {
+      "bytes": 106580,
+      "sha256": "6d917069b26ffff5d2f62be15e5dae5e24fb721da16191586b2efb86766f7078",
+      "triangles": 5524,
+      "restBoundsGltf": [
+        [
+          -0.2540000081062317,
+          0.0,
+          -0.2540000081062317
+        ],
+        [
+          0.2540000081062317,
+          0.6949999928474426,
+          0.2540000081062317
+        ]
+      ]
+    },
+    "fuse.glb": {
+      "bytes": 57936,
+      "sha256": "dcf7dc4801f9814e68867b6cd4ffb707888b2c8cb4779eb42cfa625c8450fd2c",
+      "triangles": 796,
+      "restBoundsGltf": [
+        [
+          -0.05999999865889549,
+          0.0,
+          -0.03999999910593033
+        ],
+        [
+          0.05999999865889549,
+          0.17499999701976776,
+          0.060999996960163116
+        ]
+      ]
+    },
+    "lantern.glb": {
+      "bytes": 27096,
+      "sha256": "446d9c25a625d5890d71199452ebdb214d93a895ea614369f473a4a26feec72c",
+      "triangles": 1264,
+      "restBoundsGltf": [
+        [
+          -0.1420000046491623,
+          0.0,
+          -0.14159807562828064
+        ],
+        [
+          0.1420000046491623,
+          0.37700000405311584,
+          0.14159807562828064
+        ]
+      ]
+    },
+    "module-leaf.glb": {
+      "bytes": 71128,
+      "sha256": "dd0a5f359aceb746e807d7b9f4abae1052db82bd01f25a64b8aec75963177113",
+      "triangles": 970,
+      "restBoundsGltf": [
+        [
+          -0.11999999731779099,
+          0.0,
+          -0.042500000447034836
+        ],
+        [
+          0.11999999731779099,
+          0.23999999463558197,
+          0.0729999989271164
+        ]
+      ]
+    },
+    "module-sun.glb": {
+      "bytes": 82168,
+      "sha256": "114974132c99b3d0c8fe84b86eda5bd93d66d9d3b7168b917abb42ef60f91247",
+      "triangles": 1452,
+      "restBoundsGltf": [
+        [
+          -0.11999999731779099,
+          0.0,
+          -0.042500000447034836
+        ],
+        [
+          0.11999999731779099,
+          0.23999999463558197,
+          0.0729999989271164
+        ]
+      ]
+    },
+    "module-wave.glb": {
+      "bytes": 84116,
+      "sha256": "3f23a1138517d42e693dc3c787e08b3266f50d372279259cd83cd3098eaf83a2",
+      "triangles": 1604,
+      "restBoundsGltf": [
+        [
+          -0.11999999731779099,
+          0.0,
+          -0.042500000447034836
+        ],
+        [
+          0.11999999731779099,
+          0.23999999463558197,
+          0.07500000298023224
+        ]
+      ]
+    },
+    "station.glb": {
+      "bytes": 55096,
+      "sha256": "e252b76736459e2b2b750fda465a841a944cdbd74bb44b15a9fe48b549917039",
+      "triangles": 1084,
+      "restBoundsGltf": [
+        [
+          -0.22499999403953552,
+          0.0,
+          -0.18000000715255737
+        ],
+        [
+          0.22499999403953552,
+          0.9079999923706055,
+          0.18000000715255737
+        ]
+      ]
+    },
+    "student-0.glb": {
+      "bytes": 733612,
+      "sha256": "83f139497d60130970ee96f5a1807194f468a57a6fc124868ef3216a7de4425a",
+      "triangles": 10504,
+      "restBoundsGltf": [
+        [
+          -0.37440019845962524,
+          1.0742602363222886e-09,
+          -0.31960001587867737
+        ],
+        [
+          0.3744003176689148,
+          1.6629999876022339,
+          0.21399998664855957
+        ]
+      ]
+    },
+    "student-1.glb": {
+      "bytes": 738140,
+      "sha256": "b908d08cadf8e25f4dc2cb941b606d77eb16d9811d9af4c781ff8814ef9018e3",
+      "triangles": 10672,
+      "restBoundsGltf": [
+        [
+          -0.37440019845962524,
+          1.0742602363222886e-09,
+          -0.31960001587867737
+        ],
+        [
+          0.3744003176689148,
+          1.6629999876022339,
+          0.21399998664855957
+        ]
+      ]
+    },
+    "student-2.glb": {
+      "bytes": 738140,
+      "sha256": "f85e50df2753462bb560f566a09b8a98744cff00efb8be1820f90fdfe45518db",
+      "triangles": 10672,
+      "restBoundsGltf": [
+        [
+          -0.37440019845962524,
+          1.0742602363222886e-09,
+          -0.31960001587867737
+        ],
+        [
+          0.3744003176689148,
+          1.6629999876022339,
+          0.21399998664855957
+        ]
+      ]
+    },
+    "student-3.glb": {
+      "bytes": 736756,
+      "sha256": "348e7a08d9b7548b57d585a7ef03feab6fd4caf30cef3794c51e2cf78f5782e0",
+      "triangles": 10616,
+      "restBoundsGltf": [
+        [
+          -0.37440019845962524,
+          1.0742602363222886e-09,
+          -0.31960001587867737
+        ],
+        [
+          0.3744003176689148,
+          1.6629999876022339,
+          0.21399998664855957
+        ]
+      ]
+    },
+    "tree-round.glb": {
+      "bytes": 47908,
+      "sha256": "b4ccda183045b9779e0890900348d0c7ca53fa8c4dc6860d3601240de1adff84",
+      "triangles": 2616,
+      "restBoundsGltf": [
+        [
+          -1.0003002882003784,
+          -0.00867636501789093,
+          -1.0156186819076538
+        ],
+        [
+          0.9597133994102478,
+          2.880000114440918,
+          0.7264119386672974
+        ]
+      ]
+    },
+    "tree-slender.glb": {
+      "bytes": 47920,
+      "sha256": "d473965f204388f18e12fe536480456845d68b1c63ff657160e5983652e5d4a5",
+      "triangles": 2616,
+      "restBoundsGltf": [
+        [
+          -0.7939044833183289,
+          -0.00867636501789093,
+          -0.6452838182449341
+        ],
+        [
+          0.7262358665466309,
+          3.509999990463257,
+          0.6980448961257935
+        ]
+      ]
+    }
+  }
+}

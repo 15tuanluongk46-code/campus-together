@@ -1,0 +1,24 @@
+[Unit]
+Description=Campus Together private co-op
+After=network.target
+
+[Service]
+Type=simple
+User=campus
+Group=campus
+WorkingDirectory=/opt/campus-together
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=2567
+ExecStart=/usr/bin/node apps/server/dist/index.js
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=35
+KillSignal=SIGTERM
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

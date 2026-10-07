@@ -1,0 +1,7 @@
+{
+  "version": "2026.10.0",
+  "platform": "linux-amd64",
+  "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.0/cloudflared-linux-amd64",
+  "sha256": "d33ff2d14475178d2012c2c56beba87389ac5ded27649519f198a7d3134a99db",
+  "metadata": "https://api.github.com/repos/cloudflare/cloudflared/releases/tags/2026.10.0"
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+!.env.example
+.superpowers/
+test-results/
+playwright-report/
+artifacts/
+releases/
+*.log
+*.tsbuildinfo
+tools/bin/
+.cloudflare/
+.handoff/
+__pycache__/
+.ruff_cache/

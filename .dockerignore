@@ -1,0 +1,14 @@
+node_modules
+**/node_modules
+**/dist
+**/*.tsbuildinfo
+.git
+.superpowers
+.env
+assets/source
+artifacts
+test-results
+.handoff
+.cloudflare
+releases
+tools/bin

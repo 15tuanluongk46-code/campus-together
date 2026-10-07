@@ -1,0 +1,11 @@
+# Operator sets CAMPUS_DOMAIN to an authorized DNS name before starting Caddy.
+{$CAMPUS_DOMAIN} {
+    encode zstd gzip
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy no-referrer
+        X-Frame-Options DENY
+    }
+    # Caddy forwards both matchmaking HTTP and upgraded WebSocket connections.
+    reverse_proxy 127.0.0.1:2567
+}

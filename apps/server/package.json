@@ -1,0 +1,4 @@
+{
+  "name": "@campus/server", "version": "0.1.0", "private": true, "type": "module",
+  "dependencies": { "@campus/shared": "0.1.0", "@colyseus/core": "0.18.18", "@colyseus/ws-transport": "0.18.4", "express": "5.2.1" }
+}
